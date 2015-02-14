@@ -15,11 +15,25 @@ public class Child extends Parent {
 
     private String childFiled = createString("Init Child Field");
 
+    private String childFiledInitByFoo = publicFoo();
+
+    private String childFiledInitByPrivateFoo = privateFoo();
+
     {
         System.out.println("Child init block");
     }
 
     public Child() {
         System.out.println("Child constructor");
+    }
+
+    public String publicFoo() {
+        System.out.println("child public foo");
+        return "filed init by public child foo";
+    }
+
+    private String privateFoo() {
+        System.out.println("child parent foo");
+        return "filed init by private child foo";
     }
 }
