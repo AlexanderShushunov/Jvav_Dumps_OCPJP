@@ -10,6 +10,6 @@ public final class Util {
 
     public static String createString(String msg) {
         System.out.println(msg);
-        return "";
+        return msg;
     }
 }

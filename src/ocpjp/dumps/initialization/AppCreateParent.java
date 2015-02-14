@@ -3,8 +3,8 @@ package ocpjp.dumps.initialization;
 /**
  * @author Alexander_Shushunov@epam.com.
  */
-public class App {
+public class AppCreateParent {
     public static void main(String[] args) {
-        new Child();
+        new Parent();
     }
 }
