@@ -6,10 +6,10 @@ package ocpjp.dumps.varargs;
 public class Main {
 
     public static void main(String[]... a) {
-        int i = 0;
+        System.out.println("[]");
     }
 
     public static void main(String... a) {
-        int i = 0;
+        System.out.println("...");
     }
 }

@@ -18,7 +18,6 @@ public class Declaration {
     // Varargs can be used only in the final argument position
     // private static void wrongBoo(String ... strs, int i) {}
 
-
     private static void autoBoxing(Integer... is) {
         for (int i : is) {
             System.out.print(i);
